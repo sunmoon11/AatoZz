@@ -1,0 +1,282 @@
+/* Start Button Styles --------------------------------------------- */
+* {
+    margin:0;
+    padding:0
+}
+
+table {
+    border-collapse:collapse
+}
+
+table {
+    width:100%;
+    border:none
+}
+
+.table th,.table td {
+    border:1px solid #eef0f0!important
+}
+
+th {
+    padding:5px 15px;
+    border:none;
+    border-bottom:2px solid #e5e5e5;
+    color:#3f3f3f;
+    font-weight:700;
+    font-size:.923em;
+    text-align:left
+}
+
+td {
+    padding:10px 15px;
+    border:none;
+    border-bottom:1px solid #e5e5e5;
+    text-align:left
+}
+
+table.alt th {
+    padding:7px 15px;
+    border-bottom:3px solid #d97000;
+    background:#ff8400;
+    color:#fff;
+    font-family:inherit
+}
+
+h2.version {
+    color:#fff
+}
+
+h2.version2 {
+    color:#444
+}
+
+.table {
+}
+
+#price .bg {
+    background-color:#9C0;
+    color:#fff!important
+}
+
+.bg strong,.bg h2,.bg sup {
+    color:#fff!important
+}
+
+#price th {
+    text-align:center;
+    padding:10px;
+    vertical-align:middle
+}
+
+#price th b {
+    font-size:4em
+}
+
+.pricing {
+    background-color:#FFF
+}
+
+#price .th_titles {
+    font-size:30px;
+    vertical-align:middle
+}
+
+#price hr.l_class {
+    border:0;
+    height:0;
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.3)
+}
+
+.f_trbg td,.f_trbg tr,.f_trbg th {
+    border-top:0!important;
+    border-left:1px solid #b4a1e5!important;
+    border-right:1px solid #a78cea!important
+}
+
+.f_trbg {
+    background-color:#967adc
+}
+
+.f_trbg .th_titles,.f_trbg sup,.f_trbg sub,.f_trbg b {
+    color:#FFF!important;
+    text-shadow:1px 1px 3px #207
+}
+
+table.pricing th {
+    padding:10px 0;
+    font-family:inherit text-align: center
+}
+
+table.pricing strong {
+    color:#3f3f3f;
+    font-size:2em
+}
+
+table.pricing sup {
+    position:relative;
+    top:-.5em;
+    color:#3f3f3f;
+    font-size:1.2em
+}
+
+table.pricing td {
+    text-align:center
+}
+
+table.pricing td:first-child {
+    text-align:left
+}
+
+table.pricing td:nth-child(2n+2) {
+    background:#f7f7f7;
+    border:1px solid #ccc
+}
+
+table.pricing tr.action td {
+    padding:20px 10px;
+    border-bottom-width:2px
+}
+
+table.pricing tr.action td:first-child a {
+    padding-left:20px;
+    background:url(../images/more.png) 0 50% no-repeat;
+    color:#3f3f3f
+}
+
+table.pricing tr.action td:first-child a:hover {
+    color:#ff8400
+}
+
+table.pricing span.yes {
+    display:block;
+    overflow:hidden;
+    width:18px;
+    height:18px;
+    margin:0 auto;
+    background:url(../images/msg-success.png) 50% 50% no-repeat;
+    text-indent:-50em
+}
+
+table.pricing span.no {
+    display:block;
+    overflow:hidden;
+    width:18px;
+    height:18px;
+    margin:0 auto;
+    background:url(../images/no.png) 50% 50% no-repeat;
+    text-indent:-50em
+}
+
+input[type="button"],button {
+    border:0 none;
+    font:inherit
+}
+
+:focus {
+    outline:0 none
+}
+
+input[type="submit"] {
+    border:1px solid rgba(0,0,0,0.25)
+}
+
+input[type="button"],button {
+    -moz-box-sizing:content-box
+}
+
+/*fixes mozilla padding - mozilla only, doesn't need webkit or other values */
+input[type="button"]::-moz-focus-inner,button::-moz-focus-inner {
+    padding:0;
+    border:0 none
+}
+
+/*fixes mozilla button padding - mozilla only, doesn't need webkit or other values */
+.clearfix:after {
+    clear:both;
+    content:'.';
+    display:block;
+    font-size:0;
+    line-height:0;
+    visibility:hidden;
+    width:0;
+    height:0
+}
+
+/* Arrows and Icons Classes --------------------------------------- */
+.download.large.round span {
+    background:url(../images/arrow-down.png) no-repeat right center;
+    padding-right:30px;
+    margin-right:15px
+}
+
+.download.large span {
+    background:url(../images/arrow-down.png) no-repeat right center;
+    padding-right:30px;
+    margin-right:0
+}
+
+.download.tall span {
+    background:url(../images/arrow-down-tall.png) no-repeat right center;
+    float:right;
+    padding-right:40px;
+    margin:0 -5px -1px 0;
+    height:32px
+}
+
+.download.light.tall span {
+    background:url(../images/arrow-down-tall-light.png) no-repeat right center;
+    float:right;
+    padding-right:40px;
+    margin:0 -5px -1px 0;
+    height:32px
+}
+
+.download.dark.tall span {
+    background:url(../images/arrow-down-tall-reverse.png) no-repeat right center;
+    float:right;
+    padding-right:40px;
+    margin:0 -5px -1px 0;
+    height:32px
+}
+
+.dlDark.large.round span {
+    background:url(../images/arrow-down-dark.png) no-repeat right center;
+    padding-right:30px;
+    margin-right:15px
+}
+
+.dlDark.large span {
+    background:url(../images/arrow-down-dark.png) no-repeat right center;
+    padding-right:30px;
+    margin-right:0
+}
+
+.dlLight.large.round span {
+    background:url(../images/arrow-down-light.png) no-repeat right center;
+    padding-right:30px;
+    margin-right:15px
+}
+
+.dlLight.large span {
+    background:url(../images/arrow-down-light.png) no-repeat right center;
+    padding-right:30px;
+    margin-right:0
+}
+
+@media (max-width: 720px) {
+table.pricing tr.action a.button {
+    padding:0 5px;
+    white-space:nowrap
+}
+}
+
+@media (max-width: 520px) {
+table.pricing th {
+    font-size:1em
+}
+
+table.pricing tr.action a.button {
+    font-size:.813em
+}
+}
